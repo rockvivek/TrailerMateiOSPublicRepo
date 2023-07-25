@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302AC868CAAE68C46DEF6ED6 /* Pods_TrailerMateiOSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E7FCDC4FB1D89A99F4612A /* Pods_TrailerMateiOSApp.framework */; };
+		31094DC62817FCB100FC96FB /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094DC52817FCB100FC96FB /* SearchResultViewController.swift */; };
+		31094DC82818192700FC96FB /* YoutubeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094DC72818192700FC96FB /* YoutubeResponse.swift */; };
+		31094DCA28181BBE00FC96FB /* VideoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094DC928181BBE00FC96FB /* VideoPreviewViewController.swift */; };
+		31094DCC28181F1B00FC96FB /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094DCB28181F1B00FC96FB /* TitlePreviewViewModel.swift */; };
+		31094DD2281AAF8600FC96FB /* DataPersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094DD1281AAF8600FC96FB /* DataPersistanceManager.swift */; };
+		31094DD4281AB39100FC96FB /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31094DD3281AB39100FC96FB /* TitleTableViewCell.swift */; };
+		312B5925281501C1006375CE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312B5924281501C1006375CE /* Movie.swift */; };
+		312B592B2817D301006375CE /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312B592A2817D301006375CE /* TitleCollectionViewCell.swift */; };
+		312B592D2817DF38006375CE /* UpcomingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312B592C2817DF38006375CE /* UpcomingTableViewCell.swift */; };
+		312B592F2817EAEA006375CE /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312B592E2817EAEA006375CE /* TitleViewModel.swift */; };
+		315FA01B280F28E80081F17C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA01A280F28E80081F17C /* AppDelegate.swift */; };
+		315FA01D280F28E80081F17C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA01C280F28E80081F17C /* SceneDelegate.swift */; };
+		315FA01F280F28E80081F17C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA01E280F28E80081F17C /* MainTabBarViewController.swift */; };
+		315FA025280F28E80081F17C /* TrailerMateiOSApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 315FA023280F28E80081F17C /* TrailerMateiOSApp.xcdatamodeld */; };
+		315FA027280F28EC0081F17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315FA026280F28EC0081F17C /* Assets.xcassets */; };
+		315FA033281094360081F17C /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA032281094360081F17C /* UpcomingViewController.swift */; };
+		315FA035281094460081F17C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA034281094460081F17C /* SearchViewController.swift */; };
+		315FA0372810945C0081F17C /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA0362810945C0081F17C /* DownloadsViewController.swift */; };
+		315FA039281094D00081F17C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA038281094D00081F17C /* HomeViewController.swift */; };
+		315FA04028109C050081F17C /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA03F28109C040081F17C /* CollectionViewTableViewCell.swift */; };
+		315FA0422811AA010081F17C /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA0412811AA010081F17C /* HeroHeaderUIView.swift */; };
+		315FA0442811CD000081F17C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315FA0432811CD000081F17C /* AppConstants.swift */; };
+		317E070728377B3D0035992B /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E070628377B3D0035992B /* APICaller.swift */; };
+		317E070928379DA70035992B /* AirplayDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E070828379DA70035992B /* AirplayDemoViewController.swift */; };
+		31B92056281B554B007FEE55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B92055281B554B007FEE55 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31094DC52817FCB100FC96FB /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		31094DC72818192700FC96FB /* YoutubeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeResponse.swift; sourceTree = "<group>"; };
+		31094DC928181BBE00FC96FB /* VideoPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewViewController.swift; sourceTree = "<group>"; };
+		31094DCB28181F1B00FC96FB /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
+		31094DD1281AAF8600FC96FB /* DataPersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistanceManager.swift; sourceTree = "<group>"; };
+		31094DD3281AB39100FC96FB /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		312B5924281501C1006375CE /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		312B592A2817D301006375CE /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		312B592C2817DF38006375CE /* UpcomingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingTableViewCell.swift; sourceTree = "<group>"; };
+		312B592E2817EAEA006375CE /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		315FA017280F28E80081F17C /* TrailerMateiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailerMateiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		315FA01A280F28E80081F17C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		315FA01C280F28E80081F17C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		315FA01E280F28E80081F17C /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		315FA024280F28E80081F17C /* NetflixClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetflixClone.xcdatamodel; sourceTree = "<group>"; };
+		315FA026280F28EC0081F17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		315FA02B280F28EC0081F17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315FA032281094360081F17C /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		315FA034281094460081F17C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		315FA0362810945C0081F17C /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		315FA038281094D00081F17C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		315FA03F28109C040081F17C /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		315FA0412811AA010081F17C /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		315FA0432811CD000081F17C /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		317E070628377B3D0035992B /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		317E070828379DA70035992B /* AirplayDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplayDemoViewController.swift; sourceTree = "<group>"; };
+		31B92055281B554B007FEE55 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47E7FCDC4FB1D89A99F4612A /* Pods_TrailerMateiOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrailerMateiOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F144A648DB74A2BB47D1885 /* Pods-TrailerMateiOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailerMateiOSApp.debug.xcconfig"; path = "Target Support Files/Pods-TrailerMateiOSApp/Pods-TrailerMateiOSApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FF383F48F27BEF5394228A2B /* Pods-TrailerMateiOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailerMateiOSApp.release.xcconfig"; path = "Target Support Files/Pods-TrailerMateiOSApp/Pods-TrailerMateiOSApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		315FA014280F28E80081F17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302AC868CAAE68C46DEF6ED6 /* Pods_TrailerMateiOSApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C174B5397F7A795FAF97D3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F144A648DB74A2BB47D1885 /* Pods-TrailerMateiOSApp.debug.xcconfig */,
+				FF383F48F27BEF5394228A2B /* Pods-TrailerMateiOSApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		31094DC32817FC9300FC96FB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				315FA01E280F28E80081F17C /* MainTabBarViewController.swift */,
+				315FA032281094360081F17C /* UpcomingViewController.swift */,
+				315FA034281094460081F17C /* SearchViewController.swift */,
+				315FA0362810945C0081F17C /* DownloadsViewController.swift */,
+				315FA038281094D00081F17C /* HomeViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		31094DC42817FC9A00FC96FB /* General */ = {
+			isa = PBXGroup;
+			children = (
+				31094DC52817FCB100FC96FB /* SearchResultViewController.swift */,
+				31094DC928181BBE00FC96FB /* VideoPreviewViewController.swift */,
+				317E070828379DA70035992B /* AirplayDemoViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		315FA00E280F28E70081F17C = {
+			isa = PBXGroup;
+			children = (
+				315FA019280F28E80081F17C /* TrailerMateiOSApp */,
+				315FA018280F28E80081F17C /* Products */,
+				0C174B5397F7A795FAF97D3C /* Pods */,
+				8332490880815B05B76B4B84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		315FA018280F28E80081F17C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				315FA017280F28E80081F17C /* TrailerMateiOSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		315FA019280F28E80081F17C /* TrailerMateiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				315FA03E28109BCA0081F17C /* Managers */,
+				315FA03D28109BBD0081F17C /* Resources */,
+				315FA03C28109B940081F17C /* Models */,
+				315FA03A28109B6B0081F17C /* Views */,
+				315FA03B28109B750081F17C /* ViewModels */,
+				315FA031281093F10081F17C /* Controllers */,
+				315FA02B280F28EC0081F17C /* Info.plist */,
+				31B92055281B554B007FEE55 /* LaunchScreen.storyboard */,
+				315FA023280F28E80081F17C /* TrailerMateiOSApp.xcdatamodeld */,
+			);
+			path = TrailerMateiOSApp;
+			sourceTree = "<group>";
+		};
+		315FA031281093F10081F17C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				31094DC42817FC9A00FC96FB /* General */,
+				31094DC32817FC9300FC96FB /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		315FA03A28109B6B0081F17C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				315FA03F28109C040081F17C /* CollectionViewTableViewCell.swift */,
+				315FA0412811AA010081F17C /* HeroHeaderUIView.swift */,
+				312B592A2817D301006375CE /* TitleCollectionViewCell.swift */,
+				312B592C2817DF38006375CE /* UpcomingTableViewCell.swift */,
+				31094DD3281AB39100FC96FB /* TitleTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		315FA03B28109B750081F17C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				312B592E2817EAEA006375CE /* TitleViewModel.swift */,
+				31094DCB28181F1B00FC96FB /* TitlePreviewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		315FA03C28109B940081F17C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				312B5924281501C1006375CE /* Movie.swift */,
+				31094DC72818192700FC96FB /* YoutubeResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		315FA03D28109BBD0081F17C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				315FA026280F28EC0081F17C /* Assets.xcassets */,
+				315FA0432811CD000081F17C /* AppConstants.swift */,
+				315FA01A280F28E80081F17C /* AppDelegate.swift */,
+				315FA01C280F28E80081F17C /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		315FA03E28109BCA0081F17C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				31094DD1281AAF8600FC96FB /* DataPersistanceManager.swift */,
+				317E070628377B3D0035992B /* APICaller.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8332490880815B05B76B4B84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47E7FCDC4FB1D89A99F4612A /* Pods_TrailerMateiOSApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		315FA016280F28E80081F17C /* TrailerMateiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315FA02E280F28EC0081F17C /* Build configuration list for PBXNativeTarget "TrailerMateiOSApp" */;
+			buildPhases = (
+				C9453B62D3E6747DF7208131 /* [CP] Check Pods Manifest.lock */,
+				315FA013280F28E80081F17C /* Sources */,
+				315FA014280F28E80081F17C /* Frameworks */,
+				315FA015280F28E80081F17C /* Resources */,
+				9294FFDD3B78AE2D14966931 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrailerMateiOSApp;
+			productName = NetflixClone;
+			productReference = 315FA017280F28E80081F17C /* TrailerMateiOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		315FA00F280F28E70081F17C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					315FA016280F28E80081F17C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 315FA012280F28E70081F17C /* Build configuration list for PBXProject "TrailerMateiOSApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 315FA00E280F28E70081F17C;
+			productRefGroup = 315FA018280F28E80081F17C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				315FA016280F28E80081F17C /* TrailerMateiOSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		315FA015280F28E80081F17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315FA027280F28EC0081F17C /* Assets.xcassets in Resources */,
+				31B92056281B554B007FEE55 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9294FFDD3B78AE2D14966931 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrailerMateiOSApp/Pods-TrailerMateiOSApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrailerMateiOSApp/Pods-TrailerMateiOSApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrailerMateiOSApp/Pods-TrailerMateiOSApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9453B62D3E6747DF7208131 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrailerMateiOSApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		315FA013280F28E80081F17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31094DCC28181F1B00FC96FB /* TitlePreviewViewModel.swift in Sources */,
+				315FA035281094460081F17C /* SearchViewController.swift in Sources */,
+				315FA0422811AA010081F17C /* HeroHeaderUIView.swift in Sources */,
+				315FA025280F28E80081F17C /* TrailerMateiOSApp.xcdatamodeld in Sources */,
+				315FA0442811CD000081F17C /* AppConstants.swift in Sources */,
+				315FA0372810945C0081F17C /* DownloadsViewController.swift in Sources */,
+				315FA039281094D00081F17C /* HomeViewController.swift in Sources */,
+				315FA01F280F28E80081F17C /* MainTabBarViewController.swift in Sources */,
+				317E070928379DA70035992B /* AirplayDemoViewController.swift in Sources */,
+				312B592F2817EAEA006375CE /* TitleViewModel.swift in Sources */,
+				31094DCA28181BBE00FC96FB /* VideoPreviewViewController.swift in Sources */,
+				31094DC82818192700FC96FB /* YoutubeResponse.swift in Sources */,
+				31094DD2281AAF8600FC96FB /* DataPersistanceManager.swift in Sources */,
+				312B5925281501C1006375CE /* Movie.swift in Sources */,
+				31094DD4281AB39100FC96FB /* TitleTableViewCell.swift in Sources */,
+				315FA04028109C050081F17C /* CollectionViewTableViewCell.swift in Sources */,
+				312B592D2817DF38006375CE /* UpcomingTableViewCell.swift in Sources */,
+				315FA01B280F28E80081F17C /* AppDelegate.swift in Sources */,
+				312B592B2817D301006375CE /* TitleCollectionViewCell.swift in Sources */,
+				315FA033281094360081F17C /* UpcomingViewController.swift in Sources */,
+				317E070728377B3D0035992B /* APICaller.swift in Sources */,
+				31094DC62817FCB100FC96FB /* SearchResultViewController.swift in Sources */,
+				315FA01D280F28E80081F17C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		315FA02C280F28EC0081F17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		315FA02D280F28EC0081F17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		315FA02F280F28EC0081F17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F144A648DB74A2BB47D1885 /* Pods-TrailerMateiOSApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3EGXVN72T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrailerMateiOSApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iphtechnologies.TrailerMateiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		315FA030280F28EC0081F17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF383F48F27BEF5394228A2B /* Pods-TrailerMateiOSApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3EGXVN72T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrailerMateiOSApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iphtechnologies.TrailerMateiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		315FA012280F28E70081F17C /* Build configuration list for PBXProject "TrailerMateiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315FA02C280F28EC0081F17C /* Debug */,
+				315FA02D280F28EC0081F17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315FA02E280F28EC0081F17C /* Build configuration list for PBXNativeTarget "TrailerMateiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315FA02F280F28EC0081F17C /* Debug */,
+				315FA030280F28EC0081F17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		315FA023280F28E80081F17C /* TrailerMateiOSApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				315FA024280F28E80081F17C /* NetflixClone.xcdatamodel */,
+			);
+			currentVersion = 315FA024280F28E80081F17C /* NetflixClone.xcdatamodel */;
+			path = TrailerMateiOSApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 315FA00F280F28E70081F17C /* Project object */;
+}
