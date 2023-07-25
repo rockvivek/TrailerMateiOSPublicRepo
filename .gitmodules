@@ -1,0 +1,3 @@
+[submodule "PrivateDependency/private-repo"]
+	path = PrivateDependency/private-repo
+	url = https://github.com/rockvivek/rockvivek-TrailerMateiOSPrivateRepo.git
